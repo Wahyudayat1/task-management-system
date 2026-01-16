@@ -1,4 +1,8 @@
 const TaskRepository = require("../repositories/TaskRepository");
+/**
+ * Service Layer untuk menangani Logika Bisnis Tugas.
+ * Bertanggung jawab untuk validasi data dan koordinasi dengan Repository.
+ */
 
 class TaskService {
   constructor() {
